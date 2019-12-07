@@ -14,8 +14,8 @@ Permainan ini bertujuan untuk mencapai skor setinggi-tingginya. Skor didapatkan 
 
 ## Character
 Die-kejar DEADLINE memiliki beberapa karakter diantaranya :
-Pemain : karakter utama, pemain akan terus berlari karena mempunyai stamina yang tidak terbatas.
-Rintangan (Tidur) : karakter pendukung permainan yang mana akan terus muncul kembali untuk menghalangi pemain mendapatkan skor tertinggi.
+- Pemain : karakter utama, pemain akan terus berlari karena mempunyai stamina yang tidak terbatas.
+- Rintangan (Tidur) : karakter pendukung permainan yang mana akan terus muncul kembali untuk menghalangi pemain mendapatkan skor tertinggi.
 
 ## Concept dan Environment
 Permainan ini adalah permainan sederhana yang mana ketika dibuka akan ada menu mulai untuk memulai permainan. Setelah dimulai maka pemain akan terus berlari dan ketika permainan berakhir akan ada menu mulai ulang untuk memulai permainan kembali dari awal.
