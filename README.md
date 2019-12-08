@@ -22,6 +22,6 @@ Permainan ini adalah permainan sederhana yang mana ketika dibuka akan ada menu m
 
 ## Action
 - Pemain akan terus berlari.
-- Pemain dapat melompat (jump).
+- Pemain dapat melompat dengan menekan tombol spasi pada keyboard.
 - Rintangan akan terus datang ke arah pemain dengan ketinggian yang acak.
 - Memulai ulang permainan dengan menekan tombol 'F' pada keyboard.

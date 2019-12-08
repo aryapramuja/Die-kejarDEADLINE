@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c603a6d4261f2324e98e5e42babb213e
+  - enabled: 1
+    path: Assets/Scenes/Die-kejarDEADLINE.unity
+    guid: 5c5603b3bcd6a8545a2080681330fad0
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: d694686cf15ce7a43a22760c443db727
   m_configObjects: {}

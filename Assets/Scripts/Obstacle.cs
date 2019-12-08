@@ -16,7 +16,9 @@ public class Obstacle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         transform.Translate(Vector2.left * speed * Time.deltaTime);
+        
         Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
         if (screenPosition.x < -10)
         {

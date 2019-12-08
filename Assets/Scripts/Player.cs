@@ -9,9 +9,12 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb2D;
     private bool isJump;
 
+    public GameManager theGameManager;
+
     // Start is called before the first frame update
     void Start()
     {
+        // PlayerPrefs.DeleteKey("HighScore");
         isJump = false;
         rb2D = gameObject.GetComponent<Rigidbody2D>();
     }
@@ -28,7 +31,9 @@ public class Player : MonoBehaviour
     {
         if (transform.position.x <= -10)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(2);
+            // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            // theGameManager.RestartGame();
         }
     }
 
@@ -38,6 +43,10 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && !isJump) {
             rb2D.AddForce(new Vector3(0, thrust, 0), ForceMode2D.Impulse);
             isJump = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q)) {
+            PlayerPrefs.SetFloat("HighScore", 0);
         }
     }
 }
