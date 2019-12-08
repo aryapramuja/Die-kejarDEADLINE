@@ -10,6 +10,7 @@ public class ObstacleSpawner : MonoBehaviour
     private float timeToSpawn;
     private Vector2 pos;
     private float posX;
+    public float speedUp = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -27,5 +28,7 @@ public class ObstacleSpawner : MonoBehaviour
         } else {
             timeToSpawn -= Time.deltaTime;
         }
+        if(speedUp<15.0f)
+            speedUp+=Time.deltaTime*0.25f;
     }
 }

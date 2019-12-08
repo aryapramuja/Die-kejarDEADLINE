@@ -640,8 +640,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed5dd65d78f07b5428d7584c0c145617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thePlayer: {fileID: 473006273}
-  theDeathScreen: {fileID: 0}
 --- !u!1 &753062258
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa835ae88c122344ab03ff91b900cd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgSpeed: 0.6
+  bgSpeed: 0.3
   bgRend: {fileID: 1194751849}
 --- !u!23 &1194751849
 MeshRenderer:
@@ -1231,6 +1229,7 @@ MonoBehaviour:
     type: 3}
   minTime: 0.75
   startTime: 0.9
+  speedUp: 0
 --- !u!1 &1262619638
 GameObject:
   m_ObjectHideFlags: 0

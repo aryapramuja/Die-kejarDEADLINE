@@ -4,18 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class DeathMenu : MonoBehaviour{
 
-	// public string mainMenuLevel;
-
-	// public void RestartGame(){
-	// 	FindObjectOfType<GameManager>().Reset();
-	// }
-
-	// public void QuitToMain(){
-	// 	SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-	// 	// Application.LoadLevel(mainMenuLevel);
-	// }
-
 	void FixedUpdate(){
+		// Memulai ulang permainan dengan menekan tombol F
         if (Input.GetKeyDown(KeyCode.F)) {
             SceneManager.LoadScene(0);
         }

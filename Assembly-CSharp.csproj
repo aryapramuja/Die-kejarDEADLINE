@@ -56,12 +56,12 @@
      <Compile Include="Assets\Scripts\backgroundScroll.cs" />
      <Compile Include="Assets\Scripts\deadlineScroll.cs" />
      <Compile Include="Assets\Scripts\DeathMenu.cs" />
+     <Compile Include="Assets\Scripts\FinalScoreManagement.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\groundScroll.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
-     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
