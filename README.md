@@ -25,3 +25,12 @@ Permainan ini adalah permainan sederhana yang mana ketika dibuka akan ada menu m
 - Pemain dapat melompat dengan menekan tombol spasi pada keyboard.
 - Rintangan akan terus datang ke arah pemain dengan ketinggian yang acak.
 - Memulai ulang permainan dengan menekan tombol 'F' pada keyboard.
+
+## Technology
+| Teknologi | Fungsi |
+| ----------|--------|
+| Unityhub 2.1.3| Media untuk berkolaborasi dalam pembuatan permainan |
+| Unity versi 2018.4.12f1(LTS)| Mengatur pembuatan permainan dan pengolahan aset |
+| Sublime Text Build 3211 | Membuat dan mengatur *script* permainan |
+| C# | Bahasa pemrograman yang digunakan |
+| Adobe Photoshop CC 2019 | Membuat aset |
