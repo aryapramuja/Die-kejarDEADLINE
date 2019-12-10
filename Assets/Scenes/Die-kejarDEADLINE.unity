@@ -932,6 +932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgSpeed: 0.3
   bgRend: {fileID: 1194751849}
+  obstacleSpawner: {fileID: 0}
 --- !u!23 &1194751849
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1123,6 +1124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundSpeed: 0.4
   groundRend: {fileID: 1248418696}
+  obstacleSpawner: {fileID: 0}
 --- !u!23 &1248418696
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1242,6 +1244,7 @@ GameObject:
   - component: {fileID: 1262619640}
   - component: {fileID: 1262619639}
   - component: {fileID: 1262619642}
+  - component: {fileID: 1262619643}
   m_Layer: 0
   m_Name: Deadline_With_Texture
   m_TagString: Untagged
@@ -1302,7 +1305,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262619638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.56, y: -1.58, z: 0.31}
+  m_LocalPosition: {x: -6.01, y: -1.58, z: 0.31}
   m_LocalScale: {x: 0.941875, y: 11.310348, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1322,6 +1325,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dlSpeed: 0.2
   dlRend: {fileID: 1262619639}
+--- !u!95 &1262619643
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262619638}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 726539490bfee324e868b1e14dfb6707, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1276515256
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,8 @@
 # Die-kejar DEADLINE
 Permainan endless running dua dimensi yang bertemakan mahasiswa yang dikejar oleh deadline.
 
+Permainan dapat diunduh di https://drive.google.com/file/d/1I6iURDQilYxcHrNL_S-X7TYYgTqGUjcU/view?usp=sharing
+
 ## Development Team
 | Game Designer | Game Artist | Game Programmer |
 | ----- | ----- | ----- |
@@ -34,3 +36,13 @@ Permainan ini adalah permainan sederhana yang mana ketika dibuka akan ada menu m
 | Sublime Text Build 3211 | Membuat dan mengatur *script* permainan |
 | C# | Bahasa pemrograman yang digunakan |
 | Adobe Photoshop CC 2019 | Membuat aset |
+
+## Screenshot
+Main menu
+![Main menu](MainMenu.jpg)
+Gameplay
+![Gameplay](Gameplay.jpg)
+Death menu
+![Death menu](DeathMenu.jpg)
+Death menu with new Highscore
+![Death menu with new Highscore](Highscore.jpg)
